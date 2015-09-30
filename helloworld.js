@@ -1,11 +1,11 @@
 export default {
 
     functionone(a,b) {
-        return a+b;
+        return a*b;
     },
 
     functiontwo(c, d) {
-        return c+d;
+        return c/d;
     },
 
     functionthree(e,f) {
@@ -15,8 +15,8 @@ export default {
     render() {
         return <div className='test'>
             {this.functionone()}
-            {this.functiontwo()}
             {this.functionthree()}
+            {this.functiontwo()}
         </div>;
     }
 }
