@@ -4,7 +4,7 @@ export default {
         return a+b;
     },
 
-    functiontwo(c, d) {
+    functionfive(c, d) {
         return c+d;
     },
 
@@ -16,7 +16,7 @@ export default {
         return <div className='test'>
             {this.functionone()}
             {this.functiontwo()}
-            {this.functionthree()}
+            {this.functionfive()}
         </div>;
     }
 }
